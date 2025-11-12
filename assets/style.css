@@ -1,9 +1,44 @@
-h1 {
+.david {
   color: red;
   background-color: blue;
+  padding-left: 20px;
+  margin: 30px;
+  font-style: bold;
+  width: fit-content;
 }
 
-table {
-  color: aqua;
-  background-color: bisque;
+/* This is the css code demontration how to use display flex */
+.grandparent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: yellow;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent div{
+  padding: 20px;
+  margin: 20px;
+  color: green;
+}
+
+.david, .parent{
+  border: 10px solid purple;
+  border-radius: 10px;
+}
+
+img{
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 5px solid blue;
+}
+
+img:hover{
+  border: 5px solid yellow;
+  cursor: pointer;
 }
